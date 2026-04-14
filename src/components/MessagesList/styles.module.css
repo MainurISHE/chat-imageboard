@@ -1,0 +1,13 @@
+.messageCard {
+    display: flex;
+    flex-direction: column;
+    border-radius: 20px;
+    background: rgb(255, 255, 255);
+    color: black;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
