@@ -3,7 +3,7 @@ import type {IMessageFull} from './types.ts';
 
 interface ChatStore {
   messages: IMessageFull[]
-  setMessages(messages: IMessageFull[]): void
+  setMessages: (messages: IMessageFull[]) => void
 }
 
 export const useChatStore = create<ChatStore>((set) => ({

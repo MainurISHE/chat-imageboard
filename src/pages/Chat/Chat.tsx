@@ -1,10 +1,11 @@
-import { MessagesList } from "../../components/MessagesList/MessagesList"
+import { ChatForm } from '../../components/ChatFrom/ChatForm';
+import { MessagesList } from '../../components/MessagesList/MessagesList';
 
 export const Chat = () => {
-    
-    return(
-        <div>
-            <MessagesList/>
-        </div>
-    )
-}
+  return (
+    <div>
+      <ChatForm />
+      <MessagesList />
+    </div>
+  );
+};
